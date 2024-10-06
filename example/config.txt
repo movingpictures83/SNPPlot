@@ -1,0 +1,2 @@
+Prefix plugins/SNPPlot/example/
+Plugin SNPPlot inputfile SQTL.rds outputfile snpplot.pdf
