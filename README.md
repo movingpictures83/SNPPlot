@@ -1,0 +1,2 @@
+# SNPPlot
+Plot SNPs
