@@ -14,4 +14,5 @@ output <- function(outputfile) {
 pdf(outputfile)
 	## ----SQTLdmSQTLdata_plot---------------------------------------------------
 plotData(myD, plot_type = "snps")
+write.csv(myD@counts@unlistData, paste(outputfile, "csv", sep="."))
 }
